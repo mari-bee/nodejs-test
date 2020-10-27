@@ -1,0 +1,45 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://mari-bee.github.io/nodejs-test#readme",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mari-bee/nodejs-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mari-bee/nodejs-test/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "sinon": "^9.2.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-domain-middleware": "^0.1.0",
+    "jimp": "^0.16.1",
+    "joi": "^17.2.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "mongoose-paginate-v2": "^1.3.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "random-avatar-generator": "^2.0.0",
+    "shortid": "^2.2.15",
+    "yargs": "^16.0.3"
+  }
+}
